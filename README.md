@@ -1,5 +1,7 @@
 # SVG to CSS compiler
 
+## Description
+
 A simplistic tool to take SVG files and compile them into a CSS file as classes that use `data:` URIs for background images.
 
 This is the first revision and doesn't have options or anything nice yet. I wrote it to use with [Lipis' country flags](https://flagicons.lipis.dev/) so
@@ -17,6 +19,12 @@ It looks in a directory (currently `input`) for files with the names (not includ
 ```
 
 "whatever" in each case will be the name of each file as specified earlier. You can edit the constant `CSS_TEMPLATE` to change this - a future version of this tool will have the template externally to avoid needing to touch the code.
+
+## Usage
+
+```shell
+perl svg-css-compiler.pl
+```
 
 ## Author and license
 
